@@ -25,6 +25,11 @@ describe('Calculator', () => {
     calculator.mars();
     expect(calculator.marsAge).toEqual(16);
   });
+
+  test('should correctly convert earthAge to jupiterAge', () => {
+    calculator.jupiter();
+    expect(calculator.jupiterAge).toEqual(2)
+  });
 });
 
 // import Pizza from './../src/js/business.js';

@@ -16,6 +16,9 @@ export class Calculator {
   mars() {
     this.marsAge = Math.round(this.earthAge / 1.88)
   }
+  jupiter() {
+    this.jupiterAge= Math.round(this.earthAge / 11.86)
+  }
 }
 
 // export default function Pizza(size, topping) {
