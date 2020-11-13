@@ -32,7 +32,7 @@ describe('Calculator', () => {
   });
 
   test('should correctly take in user life expectancy', () => {
-    expect(calculator.earthExp).toEqual(70);
+    expect(calculator.earthExp).toEqual(80);
   });
 });
 
