@@ -72,7 +72,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate years left to live on Mars', () => {
     calculator.mars();
-    expect(calculator.marsYearsLeft).toEqual(28);
+    expect(calculator.marsYearsLeft).toEqual(27);
   });
 });
 
