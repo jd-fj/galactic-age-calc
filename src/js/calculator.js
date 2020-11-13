@@ -1,21 +1,25 @@
 export class Calculator {
   constructor(earthAge, earthExp) {
     this.earthAge = earthAge;
-    this.earthExp = earthExp;
-    this.yearsLeft;
     this.mercuryAge;
     this.venusAge;
     this.marsAge;
     this.jupiterAge; 
+    
+    this.earthExp = earthExp;
     this.mercuryExp;
     this.venusExp;
     this.marsExp;
     this.jupiterExp;
+    
+    this.yearsLeft;
+    this.mercYearsLeft
   }
   
   mercury() {
     this.mercuryAge = Math.round(this.earthAge / .24);
     this.mercuryExp = Math.round(this.earthExp /.24);
+    this.mercYearsLeft = (this.mercuryExp - this.mercuryAge)
   }
   venus() {
     this.venusAge = Math.round(this.earthAge / .62);
@@ -27,7 +31,7 @@ export class Calculator {
   }
   jupiter() {
     this.jupiterAge= Math.round(this.earthAge / 11.86);
-    this.jupiterExp = Math.round(this.earthExp /11.86);
+    this.jupiterExp = Math.round(this.earthExp / 11.86);
   }
   remaining() {
     this.yearsLeft = (this.earthExp - this.earthAge);

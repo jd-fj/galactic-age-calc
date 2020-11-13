@@ -59,6 +59,11 @@ describe('Calculator', () => {
     calculator.jupiter();
     expect(calculator.jupiterExp).toEqual(7);
   });
+
+  test('should correctly calculate years left to live on Mercury', () => {
+    calculator.mercury();
+    expect(calculator.mercYearsLeft).toEqual(207);
+  });
 });
 
 // import Pizza from './../src/js/business.js';
