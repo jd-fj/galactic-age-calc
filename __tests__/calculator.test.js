@@ -77,7 +77,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate years left to live on Jupiter', () => {
     calculator.jupiter();
-    expect(calculator.jupiterYearsLeft).toEqual(5);
+    expect(calculator.jupiterYearsLeft).toEqual(4);
   });
 });
 
