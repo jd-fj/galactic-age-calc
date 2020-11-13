@@ -2,10 +2,14 @@ export class Calculator {
   constructor(earthAge) {
     this.earthAge = earthAge;
     this.mercuryAge;
+    this.venusAge;
   }
   
   mercury() {
     this.mercuryAge = Math.round(this.earthAge / .24);
+  }
+  venus() {
+    this.venusAge = Math.round(this.earthAge / .62)
   }
 }
 

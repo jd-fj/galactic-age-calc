@@ -15,6 +15,11 @@ describe('Calculator', () => {
       calculator.mercury();
       expect(calculator.mercuryAge).toEqual(125);
     });
+
+    test('should correctly convert earthAge to venusAge', () => {
+      calculator.venus();
+      expect(calculator.venusAge).toEqual(47)
+    });
 });
 
 // import Pizza from './../src/js/business.js';
