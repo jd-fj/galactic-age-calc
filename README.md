@@ -40,6 +40,8 @@ Open via Bash/GitBash
 | Correctly calculate number of years left to live | age = 30 expectancy = 80 | expect 50 |
 | Correctly calculate earth life expectancy to Mercury years | expectancy = 80 | expect 333 |
 | Correctly calculate earth life expectancy to Venus years | expectancy = 80 | expect 129 |
+| Correctly calculate earth life expectancy to Mars years | expectancy = 80 | expect 43 |
+| Correctly calculate earth life expectancy to Jupiter years | expectancy = 80 | expect 7 |
 
 Psuedo-psuedo code:
 1. Create a class that contains a user's earth age

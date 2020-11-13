@@ -52,7 +52,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate earth life expectancy to Mars life expectancy', () => {
     calculator.mars();
-    expect(calculator.marsExp).toEqual(42);
+    expect(calculator.marsExp).toEqual(43);
   });
 });
 
