@@ -11,15 +11,20 @@ describe('Calculator', () => {
       expect(calculator.earthAge).toEqual(30)
   });
 
-    test('should correctly convert earthAge to mercuryAge', () => {
-      calculator.mercury();
-      expect(calculator.mercuryAge).toEqual(125);
-    });
+  test('should correctly convert earthAge to mercuryAge', () => {
+    calculator.mercury();
+    expect(calculator.mercuryAge).toEqual(125);
+  });
 
-    test('should correctly convert earthAge to venusAge', () => {
-      calculator.venus();
-      expect(calculator.venusAge).toEqual(48)
-    });
+  test('should correctly convert earthAge to venusAge', () => {
+    calculator.venus();
+    expect(calculator.venusAge).toEqual(48)
+  });
+
+  test('should correctly convert earthAge to marsAge', () => {
+    calculator.mars();
+    expect(calculator.marsAge).toEqual(15);
+  });
 });
 
 // import Pizza from './../src/js/business.js';
