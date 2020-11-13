@@ -21,9 +21,9 @@
   "author": "Taylor Delph",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/taylulz/devTemplate/issues"
+    "url": "https://github.com/taylulz/galactic-age-calc/issues"
   },
-  "homepage": "https://github.com/taylulz/devTemplate#readme",
+  "homepage": "https://github.com/taylulz/galactic-age-calc#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
