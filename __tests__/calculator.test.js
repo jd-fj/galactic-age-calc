@@ -54,6 +54,11 @@ describe('Calculator', () => {
     calculator.mars();
     expect(calculator.marsExp).toEqual(43);
   });
+
+  test('should correctly calculate earth life expectancy to Jupiter life expectancy', () => {
+    calculator.jupiter();
+    expect(calculator.jupiterExp).toEqual(8);
+  });
 });
 
 // import Pizza from './../src/js/business.js';
