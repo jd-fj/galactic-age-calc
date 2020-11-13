@@ -8,11 +8,12 @@ Calculate your age and life expectancy on 5 different planets. This project is a
 ## Setup and installation instructions
 
 Software Reqirements
-1. Homebrew
-2. Bash/GitBash
-3. Node.js
-4. Node Package Manager
-3. Code editor like VS Code ([which you can download here](https://code.visualstudio.com/download))
+1. A web browser
+2. Homebrew
+3. Bash/GitBash
+4. Node.js
+5. Node Package Manager
+6. Code editor like VS Code ([which you can download here](https://code.visualstudio.com/download))
 
 Instructions 
 
@@ -34,9 +35,9 @@ _copy and paste these following commands in your terminal_
 -        $ cd ~/Desktop
 -        $ git clone https://github.com/taylulz/galactic-age-calc.git
 
-5. Find the newly downloaded galactic-age-calc folder on your desktop and drage and drop it into VS Code
+5. Find the newly downloaded galactic-age-calc folder on your desktop and drag and drop it into VS Code
 
-6. Open terminal in VS Code (in the top navigation bar choose Terminal->New Terminal). Type the following into the terminal:
+6. Open terminal in VS Code (in the top navigation bar choose Terminal->New Terminal). Type the following into the terminal, which will launch the project in your web browser:
 
 -        $ npm install
 -        $ npm run start
@@ -46,11 +47,11 @@ _copy and paste these following commands in your terminal_
 | Test | Input | Output |
 |--------|:------:|:-----:|
 | Describe Calculator |||
-| Correctly create new object with user's age | age = 30 | expect Earth age = 30 |
-| Correctly calculate Mercury age | age = 30 | expect Mercury age =  125 |
-| Correctly calculate Venus age | age = 30 | expect Venus age = 48 |
-| Correctly calculate Mars age | age = 30 | expect Mars age = 16 |
-| Correctly calculate Jupiter age | age = 30 | expect Jupiter age = 3 |
+| Correctly create new object with user's age | age = 30 | expect 30 |
+| Correctly calculate Mercury age | age = 30 | expect 125 |
+| Correctly calculate Venus age | age = 30 | expect 48 |
+| Correctly calculate Mars age | age = 30 | expect 16 |
+| Correctly calculate Jupiter age | age = 30 | expect 3 |
 | Correctly take in user's earth life expectancy | age = 30, expectancy = 80 | expect age = 30, expectancy = 80 |
 | Correctly calculate number of years left to live | age = 30 expectancy = 80 | expect 50 |
 | Correctly calculate earth life expectancy to Mercury years | expectancy = 80 | expect 333 |
