@@ -34,6 +34,11 @@ describe('Calculator', () => {
   test('should correctly take in user life expectancy', () => {
     expect(calculator.earthExp).toEqual(80);
   });
+
+  test('should correctly calculate number of years a person has left to live', () => {
+    calculator.remaining();
+    expect(calculator.yearsLeft).toEqual(51)
+  });
 });
 
 // import Pizza from './../src/js/business.js';

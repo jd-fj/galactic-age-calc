@@ -2,6 +2,7 @@ export class Calculator {
   constructor(earthAge, earthExp) {
     this.earthAge = earthAge;
     this.earthExp = earthExp;
+    this.yearsLeft;
     this.mercuryAge;
     this.venusAge;
     this.marsAge;
@@ -19,6 +20,9 @@ export class Calculator {
   }
   jupiter() {
     this.jupiterAge= Math.round(this.earthAge / 11.86)
+  }
+  remaining() {
+    this.yearsLeft = (this.earthExp - this.earthAge)
   }
 }
 
