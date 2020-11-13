@@ -57,7 +57,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate earth life expectancy to Jupiter life expectancy', () => {
     calculator.jupiter();
-    expect(calculator.jupiterExp).toEqual(8);
+    expect(calculator.jupiterExp).toEqual(7);
   });
 });
 
