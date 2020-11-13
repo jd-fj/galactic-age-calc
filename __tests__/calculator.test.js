@@ -44,6 +44,11 @@ describe('Calculator', () => {
     calculator.mercury();
     expect(calculator.mercuryExp).toEqual(333);
   });
+
+  test('should correctly calculate earth life expectancy to Venus life expectancy', () => {
+    calculator.venus();
+    expect(calculator.venusExp).toEqual(128);
+  });
 });
 
 // import Pizza from './../src/js/business.js';

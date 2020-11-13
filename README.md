@@ -39,6 +39,7 @@ Open via Bash/GitBash
 | Correctly take in user's earth life expectancy | age = 30, expectancy = 80 | expect age = 30, expectancy = 80 |
 | Correctly calculate number of years left to live | age = 30 expectancy = 80 | expect 50 |
 | Correctly calculate earth life expectancy to Mercury years | expectancy = 80 | expect 333 |
+| Correctly calculate earth life expectancy to Venus years | expectancy = 80 | expect 129 |
 
 Psuedo-psuedo code:
 1. Create a class that contains a user's earth age
@@ -48,7 +49,10 @@ Psuedo-psuedo code:
 5. Convert earth age into Jupiter age (earth age / 11.86)
 6. Take in user's earth life expectancy
 7. Calculate # of years left (earth age - life expectancy)
-8. Planet Life expectancy = (earth life expectancy / planet's year conversion)
+8. Mercury Life expectancy = (earth life expectancy / planet's year conversion)
+9. Venus Life expectancy = (earth life expectancy / planet's year conversion)
+10. Mars Life expectancy = (earth life expectancy / planet's year conversion)
+11. Jupiter Life expectancy = (earth life expectancy / planet's year conversion)
 
 ## Technologies Used
 
