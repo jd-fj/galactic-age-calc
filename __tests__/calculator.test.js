@@ -10,6 +10,11 @@ describe('Calculator', () => {
   test('should correctly create a Calculator object with earthAge set to 30', () => {
       expect(calculator.earthAge).toEqual(30)
   });
+
+    test('should correctly convert earthAge to mercuryAge', () => {
+      calculator.mercury();
+      expect(calculator.mercuryAge).toEqual(124);
+    });
 });
 
 // import Pizza from './../src/js/business.js';

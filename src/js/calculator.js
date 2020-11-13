@@ -1,8 +1,12 @@
 export class Calculator {
   constructor(earthAge) {
     this.earthAge = earthAge;
+    this.mercuryAge;
   }
   
+  mercury() {
+    this.mercuryAge = Math.round(this.earthAge / .24);
+  }
 }
 
 // export default function Pizza(size, topping) {
