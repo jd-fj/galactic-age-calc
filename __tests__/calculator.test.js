@@ -4,7 +4,7 @@ describe('Calculator', () => {
   let calculator;
 
   beforeEach (() => {
-    calculator = new Calculator(29);
+    calculator = new Calculator(30);
   });
 
   test('should correctly create a Calculator object with earthAge set to 30', () => {
