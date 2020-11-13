@@ -2,7 +2,6 @@ import { Calculator } from './../src/js/calculator.js';
 
 describe('Calculator', () => {
   let calculator;
-  let mercuryYear = .24;
 
   beforeEach (() => {
     calculator = new Calculator(30, 80);
@@ -39,6 +38,10 @@ describe('Calculator', () => {
   test('should correctly calculate number of years a person has left to live', () => {
     calculator.remaining();
     expect(calculator.yearsLeft).toEqual(50);
+  });
+
+  test('should correctly calculate earth life expectancy to Mercury life expectancy', () => {
+    expect(calculator.mercuryExp).toEqual(208)
   });
 });
 
