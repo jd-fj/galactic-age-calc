@@ -42,7 +42,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate earth life expectancy to Mercury life expectancy', () => {
     calculator.mercury();
-    expect(calculator.mercuryExp).toEqual(332);
+    expect(calculator.mercuryExp).toEqual(333);
   });
 });
 
