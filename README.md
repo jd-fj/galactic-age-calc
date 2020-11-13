@@ -34,8 +34,8 @@ Open via Bash/GitBash
 | Correctly create new object with user's age | age = 30 | expect Earth age = 30 |
 | Correctly calculate Mercury age | age = 30 | expect Mercury age =  125 |
 | Correctly calculate Venus age | age = 30 | expect Venus age = 48 |
-| Correctly calculate Mars age | age = 30 | expect Mars age = 15 |
-| Correctly calculate Jupiter age | age = 30 | expect Jupiter age = 2 |
+| Correctly calculate Mars age | age = 30 | expect Mars age = 16 |
+| Correctly calculate Jupiter age | age = 30 | expect Jupiter age = 3 |
 
 Psuedo-psuedo code:
 1. Create a class that contains a user's earth age
