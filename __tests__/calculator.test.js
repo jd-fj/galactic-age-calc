@@ -69,6 +69,11 @@ describe('Calculator', () => {
     calculator.venus();
     expect(calculator.venusYearsLeft).toEqual(81);
   });
+
+  test('should correctly calculate years left to live on Mars', () => {
+    calculator.mars();
+    expect(calculator.marsYearsLeft).toEqual(28);
+  });
 });
 
 // import Pizza from './../src/js/business.js';
