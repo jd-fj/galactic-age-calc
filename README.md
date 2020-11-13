@@ -63,24 +63,7 @@ _copy and paste these following commands in your terminal_
 | Correctly calculate years left to live on Mars | expectancy = 80 | expect 27 |
 | Correctly calculate years left to live on Jupiter | expectancy = 80 | expect 4 |
 | Correctly calculate number of years lived past earth life expectancy | age = 90, expectancy = 80 | expect 10|
-
-Psuedo-psuedo code:
-1. Create a class that contains a user's earth age
-2. Convert earth age into Mercury age (earth age / .24)
-3. Convert earth age into Venus age (earth age / .62)
-4. Convert earth age into Mars age (earth age / 1.88)
-5. Convert earth age into Jupiter age (earth age / 11.86)
-6. Take in user's earth life expectancy
-7. Calculate # of years left (earth age - life expectancy)
-8. Mercury Life expectancy = (earth life expectancy / planet's year conversion)
-9. Venus Life expectancy = (earth life expectancy / planet's year conversion)
-10. Mars Life expectancy = (earth life expectancy / planet's year conversion)
-11. Jupiter Life expectancy = (earth life expectancy / planet's year conversion)
-12. Determine years left to live on Mercury 208
-13. Determine years left to live on Venus 81
-14. Determine years left to live on Mars 27
-15. Determine years left to live on Jupiter 4
-16. Update earth life expectancy to account if user has lived beyond life expectancy
+||||
 
 ## Technologies Used
 
