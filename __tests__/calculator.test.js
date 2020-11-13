@@ -13,7 +13,7 @@ describe('Calculator', () => {
 
     test('should correctly convert earthAge to mercuryAge', () => {
       calculator.mercury();
-      expect(calculator.mercuryAge).toEqual(124);
+      expect(calculator.mercuryAge).toEqual(125);
     });
 });
 
