@@ -36,6 +36,9 @@ Open via Bash/GitBash
 | Correctly calculate Venus age | age = 30 | expect Venus age = 48 |
 | Correctly calculate Mars age | age = 30 | expect Mars age = 16 |
 | Correctly calculate Jupiter age | age = 30 | expect Jupiter age = 3 |
+| Correctly take in user's earth life expectancy | age = 30, expectancy = 80 | expect age = 30, expectancy = 80 |
+| Correctly calculate number of years left to live | age = 30 expectancy = 80 | expect 50 |
+| Correctly calculate number of years left to live on Mercury | expectancy = 80 | expect 209
 
 Psuedo-psuedo code:
 1. Create a class that contains a user's earth age
