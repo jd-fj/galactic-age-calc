@@ -1,31 +1,46 @@
-# Title
-###### What is it [date]
+# Super Galactic Age Calculator
+###### Independent project for Epicodus [11.13.20]
 ### by Taylor Delph
 
 ### **Description:**
-
-## Link to website 
-[Click here to directly visit my site](link)
+Calculate your age and life expectancy on 5 different planets. This project is an exercise in setting up a dev environment from scratch. It's also focused on using a Test Driven Development approach to building business logic.
 
 ## Setup and installation instructions
 
 Software Reqirements
-1. A web browser
+1. Homebrew
 2. Bash/GitBash
-3. Code editor like VS Code to view or edit the code
+3. Node.js
+4. Node Package Manager
+3. Code editor like VS Code ([which you can download here](https://code.visualstudio.com/download))
 
-Open by downloading
+Instructions 
 
-1. [Navigate to my GitHub repo](link)
-2. 
+_copy and paste these following commands in your terminal_
+1. To install homebrew:
 
-Open via Bash/GitBash
+-        $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-1. To clone this repository, go to your terminal and enter:
+2. To instal git:
 
-        `$ git clone ${link}`
+-        $ brew install git
 
-2. 
+3. To install Node.js;
+
+-        $ brew install node
+
+4. Clone this project's repo
+
+-        $ cd ~/Desktop
+-        $ git clone https://github.com/taylulz/galactic-age-calc.git
+
+5. Find the newly downloaded galactic-age-calc folder on your desktop and drage and drop it into VS Code
+
+6. Open terminal in VS Code (in the top navigation bar choose Terminal->New Terminal). Type the following into the terminal:
+
+-        $ npm install
+-        $ npm run start
+
 
 ## Specifications
 | Test | Input | Output |
@@ -68,9 +83,32 @@ Psuedo-psuedo code:
 
 ## Technologies Used
 
-• VS Code
+- VS Code
 
-• GitBash
+- GitBash
+
+- npm
+
+- Node.js
+
+- ESLint
+
+- Babel
+
+- webpack
+
+- Jest
+
+- Popper.js
+
+- Bootstrap
+
+- HTML
+
+- CSS
+
+## Known Bugs
+_No known bugs at this time_
 
 ## Legal
 
