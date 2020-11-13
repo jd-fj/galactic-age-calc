@@ -37,7 +37,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate number of years a person has left to live', () => {
     calculator.remaining();
-    expect(calculator.yearsLeft).toEqual(51)
+    expect(calculator.yearsLeft).toEqual(50);
   });
 });
 
