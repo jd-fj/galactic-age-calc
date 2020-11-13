@@ -47,7 +47,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate earth life expectancy to Venus life expectancy', () => {
     calculator.venus();
-    expect(calculator.venusExp).toEqual(128);
+    expect(calculator.venusExp).toEqual(129);
   });
 });
 
