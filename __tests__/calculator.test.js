@@ -62,7 +62,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate years left to live on Mercury', () => {
     calculator.mercury();
-    expect(calculator.mercYearsLeft).toEqual(208);
+    expect(calculator.mercuryYearsLeft).toEqual(208);
   });
 
   test('should correctly calculate years left to live on Venus', () => {
@@ -73,6 +73,11 @@ describe('Calculator', () => {
   test('should correctly calculate years left to live on Mars', () => {
     calculator.mars();
     expect(calculator.marsYearsLeft).toEqual(27);
+  });
+
+  test('should correctly calculate years left to live on Jupiter', () => {
+    calculator.jupiter();
+    expect(calculator.jupiterYearsLeft).toEqual(5);
   });
 });
 

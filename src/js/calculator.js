@@ -13,7 +13,7 @@ export class Calculator {
     this.jupiterExp;
     
     this.yearsLeft;
-    this.mercYearsLeft;
+    this.mercuryYearsLeft;
     this.venusYearsLeft;
     this.marsYearsLeft;
   }
@@ -21,7 +21,7 @@ export class Calculator {
   mercury() {
     this.mercuryAge = Math.round(this.earthAge / .24);
     this.mercuryExp = Math.round(this.earthExp /.24);
-    this.mercYearsLeft = (this.mercuryExp - this.mercuryAge);
+    this.mercuryYearsLeft = (this.mercuryExp - this.mercuryAge);
   }
   venus() {
     this.venusAge = Math.round(this.earthAge / .62);
@@ -36,6 +36,7 @@ export class Calculator {
   jupiter() {
     this.jupiterAge= Math.round(this.earthAge / 11.86);
     this.jupiterExp = Math.round(this.earthExp / 11.86);
+    this.jupiterYearsLeft = (this.jupiterExp - this.jupiterAge);
   }
   remaining() {
     this.yearsLeft = (this.earthExp - this.earthAge);
