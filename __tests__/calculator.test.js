@@ -62,7 +62,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate years left to live on Mercury', () => {
     calculator.mercury();
-    expect(calculator.mercYearsLeft).toEqual(207);
+    expect(calculator.mercYearsLeft).toEqual(208);
   });
 });
 
