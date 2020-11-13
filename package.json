@@ -14,8 +14,8 @@
     "coverageReporters": ["html"]
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/taylulz/galactig-age-calc.git"
   },
   "keywords": [],
   "author": "Taylor Delph",
