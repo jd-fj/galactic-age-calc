@@ -67,7 +67,7 @@ describe('Calculator', () => {
 
   test('should correctly calculate years left to live on Venus', () => {
     calculator.venus();
-    expect(calculator.venusYearsLeft).toEqual(80);
+    expect(calculator.venusYearsLeft).toEqual(81);
   });
 });
 
