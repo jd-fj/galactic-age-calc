@@ -18,7 +18,7 @@ describe('Calculator', () => {
 
     test('should correctly convert earthAge to venusAge', () => {
       calculator.venus();
-      expect(calculator.venusAge).toEqual(47)
+      expect(calculator.venusAge).toEqual(48)
     });
 });
 
