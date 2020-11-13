@@ -6,7 +6,7 @@ export class Calculator {
     this.mercuryAge;
     this.venusAge;
     this.marsAge;
-    this.jupiterAge;
+    this.jupiterAge; 
   }
   
   mercury() {

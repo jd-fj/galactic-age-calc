@@ -2,6 +2,7 @@ import { Calculator } from './../src/js/calculator.js';
 
 describe('Calculator', () => {
   let calculator;
+  let mercuryYear = .24;
 
   beforeEach (() => {
     calculator = new Calculator(30, 80);
