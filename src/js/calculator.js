@@ -9,6 +9,7 @@ export class Calculator {
     this.jupiterAge; 
     this.mercuryExp;
     this.venusExp;
+    this.marsExp;
   }
   
   mercury() {
@@ -21,6 +22,7 @@ export class Calculator {
   }
   mars() {
     this.marsAge = Math.round(this.earthAge / 1.88);
+    this.marsExp = Math.round(this.earthExp /1.88);
   }
   jupiter() {
     this.jupiterAge= Math.round(this.earthAge / 11.86);
