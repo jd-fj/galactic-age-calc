@@ -46,6 +46,7 @@ Open via Bash/GitBash
 | Correctly calculate years left to live on Venus | expectancy = 80 | expect 81 |
 | Correctly calculate years left to live on Mars | expectancy = 80 | expect 27 |
 | Correctly calculate years left to live on Jupiter | expectancy = 80 | expect 4 |
+| Correctly calculate number of years lived past earth life expectancy | age = 90, expectancy = 80 | expect 10|
 
 Psuedo-psuedo code:
 1. Create a class that contains a user's earth age
@@ -63,6 +64,7 @@ Psuedo-psuedo code:
 13. Determine years left to live on Venus 81
 14. Determine years left to live on Mars 27
 15. Determine years left to live on Jupiter 4
+16. Update earth life expectancy to account if user has lived beyond life expectancy
 
 ## Technologies Used
 
