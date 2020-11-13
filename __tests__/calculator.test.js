@@ -79,6 +79,13 @@ describe('Calculator', () => {
     calculator.jupiter();
     expect(calculator.jupiterYearsLeft).toEqual(4);
   });
+
+  test('should correctly calculate number of years a person has lived past earth life expectancy', () => {
+    calculator.earthAge = 90;
+    calculator.remaining();
+    expect(calculator.yearsLeft).toEqual(9);
+  });
+
 });
 
 // import Pizza from './../src/js/business.js';
