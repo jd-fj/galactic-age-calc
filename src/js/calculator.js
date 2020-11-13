@@ -1,6 +1,7 @@
 export class Calculator {
-  constructor(earthAge) {
+  constructor(earthAge, earthExp) {
     this.earthAge = earthAge;
+    this.earthExp = earthExp;
     this.mercuryAge;
     this.venusAge;
     this.marsAge;
