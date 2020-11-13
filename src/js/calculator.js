@@ -1,9 +1,6 @@
 export class Calculator {
   constructor(earthAge) {
     this.earthAge = earthAge;
-    this.mercuryAge;
-    this.marsAge;
-    this.jupiterAge;
   }
   
 }

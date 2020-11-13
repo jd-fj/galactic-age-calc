@@ -1,3 +1,17 @@
+import { Calculator } from './../src/js/calculator.js';
+
+describe('Calculator', () => {
+  let calculator;
+
+  beforeEach (() => {
+    calculator = new Calculator(29);
+  });
+
+  test('should correctly create a Calculator object with earthAge set to 30', () => {
+      expect(calculator.earthAge).toEqual(30)
+  });
+});
+
 // import Pizza from './../src/js/business.js';
 
 // describe('Pizza', () => {
