@@ -1,23 +1,23 @@
 # Super Galactic Age Calculator
 ###### Independent project for Epicodus [11.13.20]
-### by Taylor Delph
+##### by Taylor Delph
 
-### **Description:**
-Calculate your age and life expectancy on 5 different planets. This project is an exercise in setting up a dev environment from scratch. It's also focused on using a Test Driven Development approach to building business logic.
+## **Description:**
+Calculate your age and life expectancy on 5 different planets. This project is an exercise in setting up a dev environment from scratch. It also focuses on using Test Driven Development to build business logic piece by piece.
 
-## Setup and installation instructions
+## Setup and installation
 
 Software Reqirements
-1. A web browser
-2. Homebrew
-3. Bash/GitBash
-4. Node.js
-5. Node Package Manager
-6. Code editor like VS Code ([which you can download here](https://code.visualstudio.com/download))
+- A web browser
+- Homebrew
+- Bash/GitBash
+- Node.js
+- Node Package Manager
+- Code editor like VS Code ([which you can download here](https://code.visualstudio.com/download))
 
-Instructions 
+### **Instructions:**
 
-_copy and paste these following commands in your terminal_
+_copy and paste these following commands into your terminal_
 1. To install homebrew:
 
 -        $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -35,9 +35,9 @@ _copy and paste these following commands in your terminal_
 -        $ cd ~/Desktop
 -        $ git clone https://github.com/taylulz/galactic-age-calc.git
 
-5. Find the newly downloaded galactic-age-calc folder on your desktop and drag and drop it into VS Code
+5. Find the newly downloaded `galactic-age-calc` folder on your desktop and drag and drop it into VS Code
 
-6. Open terminal in VS Code (in the top navigation bar choose Terminal->New Terminal). Type the following into the terminal, which will launch the project in your web browser:
+6. Open terminal in VS Code (in the top navigation bar choose Terminal->New Terminal). Run the following in the terminal, which will launch the project in your web browser:
 
 -        $ npm install
 -        $ npm run start
@@ -46,7 +46,7 @@ _copy and paste these following commands in your terminal_
 ## Specifications
 | Test | Input | Output |
 |--------|:------:|:-----:|
-| Describe Calculator |||
+| **Describe Calculator:** |||
 | Correctly create new object with user's age | age = 30 | expect 30 |
 | Correctly calculate Mercury age | age = 30 | expect 125 |
 | Correctly calculate Venus age | age = 30 | expect 48 |
