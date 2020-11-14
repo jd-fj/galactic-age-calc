@@ -32,7 +32,7 @@ describe('Calculator', () => {
     calculator.jupiter();
     expect(calculator.jupiterAge).toEqual(3);
     expect(calculator.jupiterExp).toEqual(7);
-    expect(calculator.jupiterYearsLeft).toEqual(3);
+    expect(calculator.jupiterYearsLeft).toEqual(4);
   });
 
   test('should correctly take in user life expectancy', () => {
