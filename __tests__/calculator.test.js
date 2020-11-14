@@ -54,11 +54,6 @@ describe('Calculator', () => {
     expect(calculator.venusExp).toEqual(129);
   });
 
-  // test('should correctly calculate earth life expectancy to Jupiter life expectancy', () => {
-  //   calculator.jupiter();
-  //   expect(calculator.jupiterExp).toEqual(7);
-  // });
-
   test('should correctly calculate years left to live on Mercury', () => {
     calculator.mercury();
     expect(calculator.mercuryYearsLeft).toEqual(208);
@@ -68,11 +63,6 @@ describe('Calculator', () => {
     calculator.venus();
     expect(calculator.venusYearsLeft).toEqual(81);
   });
-
-  // test('should correctly calculate years left to live on Jupiter', () => {
-  //   calculator.jupiter();
-  //   expect(calculator.jupiterYearsLeft).toEqual(4);
-  // });
 
   test('should correctly calculate number of years a person has lived past earth life expectancy', () => {
     calculator.earthAge = 90;
