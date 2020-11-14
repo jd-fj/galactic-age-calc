@@ -85,5 +85,4 @@ describe('Calculator', () => {
     calculator.remaining();
     expect(calculator.yearsLeft).toEqual(10);
   });
-
 });
