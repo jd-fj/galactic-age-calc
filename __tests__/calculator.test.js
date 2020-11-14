@@ -25,6 +25,7 @@ describe('Calculator', () => {
     calculator.mars();
     expect(calculator.marsAge).toEqual(16);
     expect(calculator.marsExp).toEqual(43);
+    expect(calculator.marsYearsLeft).toEqual(26);
   });
 
   test('should correctly convert earthAge to jupiterAge', () => {
