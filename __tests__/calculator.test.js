@@ -24,7 +24,7 @@ describe('Calculator', () => {
   test('should correctly convert earthAge to marsAge', () => {
     calculator.mars();
     expect(calculator.marsAge).toEqual(16);
-    expect(calculator.marsExp).toEqual(43);
+    expect(calculator.marsExp).toEqual(42);
   });
 
   test('should correctly convert earthAge to jupiterAge', () => {
@@ -49,11 +49,6 @@ describe('Calculator', () => {
   test('should correctly calculate earth life expectancy to Venus life expectancy', () => {
     calculator.venus();
     expect(calculator.venusExp).toEqual(129);
-  });
-
-  test('should correctly calculate earth life expectancy to Mars life expectancy', () => {
-    calculator.mars();
-    expect(calculator.marsExp).toEqual(43);
   });
 
   test('should correctly calculate earth life expectancy to Jupiter life expectancy', () => {
