@@ -11,9 +11,11 @@ describe('Calculator', () => {
       expect(calculator.earthAge).toEqual(30)
   });
 
-  test('should correctly convert earthAge to mercuryAge', () => {
+  test('should correctly convert earthAge to mercuryAge and Mercury life expectancy', () => {
     calculator.mercury();
     expect(calculator.mercuryAge).toEqual(125);
+    expect(calculator.mercuryExp).toEqual(333);
+    expect(calculator.mercuryYearsLeft).toEqual(208);
   });
 
   test('should correctly convert earthAge to venusAge', () => {
@@ -44,19 +46,9 @@ describe('Calculator', () => {
     expect(calculator.yearsLeft).toEqual(50);
   });
 
-  test('should correctly calculate earth life expectancy to Mercury life expectancy', () => {
-    calculator.mercury();
-    expect(calculator.mercuryExp).toEqual(333);
-  });
-
   test('should correctly calculate earth life expectancy to Venus life expectancy', () => {
     calculator.venus();
     expect(calculator.venusExp).toEqual(129);
-  });
-
-  test('should correctly calculate years left to live on Mercury', () => {
-    calculator.mercury();
-    expect(calculator.mercuryYearsLeft).toEqual(208);
   });
 
   test('should correctly calculate years left to live on Venus', () => {
