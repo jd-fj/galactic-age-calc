@@ -46,16 +46,6 @@ describe('Calculator', () => {
     expect(calculator.yearsLeft).toEqual(50);
   });
 
-  test('should correctly calculate earth life expectancy to Venus life expectancy', () => {
-    calculator.venus();
-    expect(calculator.venusExp).toEqual(129);
-  });
-
-  test('should correctly calculate years left to live on Venus', () => {
-    calculator.venus();
-    expect(calculator.venusYearsLeft).toEqual(81);
-  });
-
   test('should correctly calculate number of years a person has lived past earth life expectancy', () => {
     calculator.earthAge = 90;
     calculator.remaining();
