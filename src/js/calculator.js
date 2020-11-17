@@ -46,4 +46,5 @@ export class Calculator {
     }
     return this.yearsLeft;
   }
+
 }
