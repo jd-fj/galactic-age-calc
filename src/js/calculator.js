@@ -39,12 +39,11 @@ export class Calculator {
     this.jupiterYearsLeft = (this.jupiterExp - this.jupiterAge);
   }
   remaining() {
-    if (this.earthAge < this.earthExp) {
+    if (this.earthAge <= this.earthExp) {
       this.yearsLeft = (this.earthExp - this.earthAge);
-    } else if (this.earthAge > this.earthExp) {
+    } else {
       this.yearsLeft = (this.earthAge - this.earthExp);
     }
     return this.yearsLeft;
   }
-
 }

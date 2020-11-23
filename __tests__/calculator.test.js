@@ -41,7 +41,7 @@ describe('Calculator', () => {
     expect(calculator.earthExp).toEqual(80);
   });
 
-  test('should correctly calculate number of years a person has left to live', () => {
+  test('should correctly calculate number of years a person has left to live if age is lower than life expectancy', () => {
     calculator.remaining();
     expect(calculator.yearsLeft).toEqual(50);
   });
@@ -49,6 +49,8 @@ describe('Calculator', () => {
   test('should correctly calculate number of years a person has lived past earth life expectancy', () => {
     calculator.earthAge = 90;
     calculator.remaining();
-    expect(calculator.yearsLeft).toEqual(10);
+    expect(calculator.yearsLeft).toEqual(19);
   });
+
 });
+
