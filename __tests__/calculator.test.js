@@ -49,7 +49,7 @@ describe('Calculator', () => {
   test('should correctly calculate number of years a person has lived past earth life expectancy', () => {
     calculator.earthAge = 90;
     calculator.remaining();
-    expect(calculator.yearsLeft).toEqual(19);
+    expect(calculator.yearsLeft).toEqual(10);
   });
 
 });
